@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO do list</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+    <div id = "to-do container">
+        <div id = "header">
+            <h1>To - Do List </h1>
+        </div>
+
+        <div id = "to-do form">
+            <input type="text" class="index-item" name ="index-box" id ="index-box" placeholder="Add Task">
+            <button id ="input-button" onclick="addtask()">Add</button>
+        </div>
+        <h2 >Task List</h2>
+        <ul id =" Task container"></ul>
+        <hr>
+        <div class ="counter-container">
+            <div id = task-counters>
+                Completed <span id = completed-counter>0</span> | Uncompleted <span id = Uncompleted-counter >0</span>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script type ="text/javascript" src="script.js" ></script>
+    
+</body>
+</html>
